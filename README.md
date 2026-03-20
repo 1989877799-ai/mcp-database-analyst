@@ -1,7 +1,3 @@
-
------
-
-````markdown
 # 📊 MCP Database Analyst Server
 
 ![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue)
@@ -102,7 +98,7 @@ mcp-database-analyst/
 
 本项目基于 [MIT License](https://www.google.com/search?q=LICENSE) 开源，欢迎自由 Fork 与二次开发。
 
-```
+
 
 
 
