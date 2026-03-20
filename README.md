@@ -19,13 +19,13 @@
 
 ```mermaid
 graph LR
-    User[👤 用户 (自然语言提问)] --> Client[🖥️ MCP Client (Cursor/Claude)]
-    Client -- MCP Protocol --> Server[⚙️ Python MCP Server]
-    Server -- 1. get_database_schema --> DB[(📦 本地 SQLite)]
-    Server -- 2. execute_read_only_sql --> DB
-    DB -. 返回结果集 (JSON) .-> Server
-    Server -. 传递 Context .-> Client
-    Client -. LLM 渲染报表 .-> User
+    User["👤 用户 (自然语言提问)"] --> Client["🖥️ MCP Client (Cursor/Claude)"]
+    Client -- MCP Protocol --> Server["⚙️ Python MCP Server"]
+    Server -- "1. get_database_schema" --> DB[("📦 本地 SQLite")]
+    Server -- "2. execute_read_only_sql" --> DB
+    DB -. "返回结果集 (JSON)" .-> Server
+    Server -. "传递 Context" .-> Client
+    Client -. "LLM 渲染报表" .-> User
 ````
 
 ## 🚀 快速开始 (Quick Start)
